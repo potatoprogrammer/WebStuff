@@ -1,0 +1,45 @@
+<!-- 
+    Name: Caio Victor Gonçalves
+    Project: ESCAPE THE SPADES 
+    Date: 2019-11-20    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 11</title>
+    <script src="week11.js"></script>
+    <link rel="stylesheet" href="week11.css">
+</head>
+<body onload="displayImage()">
+    <!-- JUST THE LOGO -->
+    <div class="center">
+        <img src="escapethespadelogo.png" alt="escapethespadelogo">
+    </div>
+    <!-- END OF THE LOGO -->
+
+    <!-- THE RANDOM IMAGES -->
+    <div class="centerrandom">
+        <img id="1" src="suit-1.png" alt="1">
+        <img id="2" src="suit-2.png" alt="2">
+        <img id="3" src="suit-3.png" alt="3">
+        <img id="4" src="suit-4.png" alt="4">
+    </div>
+    <!-- END OF THE RANDOM IMAGES -->
+
+    <!-- BUTTON -->
+    <div class="button">
+        <button onClick="displayImage()">Play</button>
+    </div>
+    <!-- END OF BUTTON -->
+
+    <!-- DISPLAY RESULT -->
+    <div class="result">
+        <p id="result"></p>
+    </div>
+    <!-- END OF DISPLAY RESULT -->
+</body>
+</html>
