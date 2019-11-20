@@ -1,0 +1,55 @@
+/* 
+    Name: Caio Victor Gonçalves
+    Project: ESCAPE THE SPADES 
+    Date: 2019-11-20    
+*/
+body {
+    background-color: black;
+}
+/* TO CENTER THE IMAGES */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* TO CENTER THE RANDOM IMAGES */
+.centerrandom {
+    display: block;
+    margin-left: 550px;
+    margin-right: 450px;
+    width: 50%;
+    padding-top: auto;
+}
+
+/* BUTTON */
+button {
+    position: relative;
+    width: 201px;
+    height: 76px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FF0000;
+    background: #181F5C;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 850px;
+    outline: none;
+}
+
+/* DISPLAY RESULT */
+.result {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
